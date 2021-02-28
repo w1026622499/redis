@@ -1,0 +1,7 @@
+spring:
+  redis:
+    host: 192.168.2.128
+    port: 6379
+    database: 1                        #连接库
+    timeout: 10000          #设置连接超时时间
+    # password:       redis配置中没有设置密码 不需要填写
