@@ -18,7 +18,7 @@ public class RedisController {
     public String setRedisKey(User userEntity) {
         String json = JSONObject.toJSONString(userEntity);
         redisUtils.setString("userEntity", json);
-        return "存储成功";
+        return "存储成功1";
     }
 
     @RequestMapping("/getRedis")
