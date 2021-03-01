@@ -1,7 +1,12 @@
 spring:
   redis:
-    host: 192.168.2.128
+    host: 192.168.2.41
     port: 6379
-    database: 1                        #Á¬½Ó¿â
-    timeout: 10000          #ÉèÖÃÁ¬½Ó³¬Ê±Ê±¼ä
-    # password:       redisÅäÖÃÖĞÃ»ÓĞÉèÖÃÃÜÂë ²»ĞèÒªÌîĞ´
+    database: 1                        #é€‰æ‹©åº“
+    timeout: 10000          #è®¾ç½®è¶…æ—¶æ—¶é—´
+    # password:       redisé…ç½®æ–‡ä»¶æ²¡æœ‰è®¾ç½®å¯†ç ä¸éœ€è¦å¡«å†™
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: 123456
