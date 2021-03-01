@@ -1,0 +1,15 @@
+
+面试题
+https://www.cnblogs.com/javazhiyin/p/13839357.html
+
+缓存-穿透
+https://juejin.cn/post/6844903986475057165
+
+哨兵-主从
+https://juejin.cn/post/6844903989184577550
+
+基础
+https://juejin.cn/post/6844903982066827277
+
+Redis双写一致性、并发竞争、线程模型
+https://juejin.cn/post/6844903991562747912
