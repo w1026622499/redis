@@ -13,3 +13,6 @@ https://juejin.cn/post/6844903982066827277
 
 Redis双写一致性、并发竞争、线程模型
 https://juejin.cn/post/6844903991562747912
+
+
+https://zhuanlan.zhihu.com/p/91539644
